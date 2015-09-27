@@ -1,0 +1,5 @@
+Change Drawer
+Add all HHGTTG entries
+Add Diary
+Add Characters
+Remove Settings link and replace with Manual
