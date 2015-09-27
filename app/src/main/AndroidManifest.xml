@@ -24,6 +24,37 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="thane.hhgttg.MainActivity" />
         </activity>
+        <activity
+            android:name=".Index"
+            android:label="@string/title_activity_index"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CharIndex"
+            android:label="@string/title_activity_char_index"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Time"
+            android:label="@string/title_activity_time"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Eval"
+            android:label="@string/title_activity_eval" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

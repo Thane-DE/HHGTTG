@@ -1,9 +1,11 @@
 package thane.hhgttg;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,5 +35,31 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void openManual(View view) {
+        // Do something in response to button
+        Intent openManualIntent = new Intent(this, Manual.class);
+        startActivity(openManualIntent);
+    }
+
+    public void openIndex(View view){
+        Intent openIndexIntent = new Intent(this, Index.class);
+        startActivity(openIndexIntent);
+    }
+
+    public void openChars(View view){
+        Intent openCharsIntent = new Intent(this, CharIndex.class);
+        startActivity(openCharsIntent);
+    }
+
+    public void openTime(View view){
+        Intent openTimeIntent = new Intent(this, Time.class);
+        startActivity(openTimeIntent);
+    }
+
+    public void openEval(View view){
+        Intent openEvalIntent = new Intent(this, Eval.class);
+        startActivity(openEvalIntent);
     }
 }

@@ -4,4 +4,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_manual">Manual</string>
+    <string name="title_activity_index">Index</string>
+    <string name="title_activity_char_index">CharIndex</string>
+    <string name="title_activity_time">Time</string>
+    <string name="title_activity_eval">Eval</string>
 </resources>
