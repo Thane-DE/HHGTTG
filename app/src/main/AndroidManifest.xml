@@ -19,7 +19,10 @@
         <activity
             android:name=".Manual"
             android:label="@string/title_activity_manual"
-            android:parentActivityName="thane.hhgttg.MainActivity" >
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.MainActivity" />
         </activity>
     </application>
 

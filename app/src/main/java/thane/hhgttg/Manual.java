@@ -2,10 +2,8 @@ package thane.hhgttg;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 public class Manual extends AppCompatActivity {
 
@@ -13,8 +11,6 @@ public class Manual extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manual);
-        TextView tv = (TextView) findViewById(R.id.textView7);
-        tv.setMovementMethod(new ScrollingMovementMethod());
     }
 
     @Override
