@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="thane.hhgttg.Tricia">
+
+    <TextView android:text="Tricia McMillan, also known as Trillian, left the Earth after she met Zaphod Beeblebrox at a party in Islington. Arthur Dent was in attendance at this party. She has a degree in math and another in astrophysics. She brought two white mice with her, Benjy and Frankie Mouse.\n\n
+
+She was slim, darkish, humanoid, with long waves of black hair, a full mouth, an odd little nob of a nose and ridiculously brown eyes." android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

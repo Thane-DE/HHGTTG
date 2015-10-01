@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="vertical" >
+
+    <TextView android:text="Prefect, Ford,
+
+roving researcher for the Hitchhiker's Guide To The Galaxy. He's not from Guildford, as he usually claims. He actualy comes from a small planet in the vicinity of Betelgeuse. He came to Earth for a week and got stuck there for fifteen years. His minimal research told him that Ford Prefect would be a nicely inconspicuous name.\n\n
+
+He had spent those fifteen years pretending to be an out of work actor, which was plausible enough.\n\n
+
+He was not conspicuously tall, his features were striking but not conspicuously handsome. His hair was wiry and gingerish and brushed backwards from the temples. His skin seemed to be pulled backwards from the nose. There was something very slightly odd about him, but it was difficult to say what it was. Perhaps it was that his eyes didn't blink often enough and when you talked to him for any length of time your eyes began involuntarily to water on his behalf. Perhaps it was that he smiled slightly too broadly and gave people the unnerving impression that he was about to go for their neck.\n\n
+
+He struck most of the friends he had made on Earth as an eccentric, but a harmless one-an unruly boozer with some oddish habits. For instance he would often gatecrash university parties, get badly drunk and start making fun of any astrophysicist he could find till he got thrown out.\n\n
+
+Sometimes he would get seized with oddly distracted moods and stare into the sky as if hypnotized until someone asked him what he was doing. Then he would start guiltily for a moment, relax and grin.\n\n
+
+'Oh, just looking for flying saucers', he would joke and everyone would laugh and ask him what sort of flying saucers he was looking for.\n\n
+
+'Green ones!' he would reply with a wicked grin, laugh wildly for a moment and then suddenly lunge for the nearest bar and buy an enormous round of drinks.\n\n
+
+Evenings like this usually ended badly. Ford would get out of his skull on whisky, huddle into a corner with some girl and explain to her in slurred phrases that honestly the colour of the flying saucers didn't matter that much really.\n\n
+
+Thereafter, staggering semi-paralytic down the night streets he would often ask passing policemen if they knew the way to Betelgeuse. The policemen would usually say something like, 'Don't you think it's about time you went off home sir?'\n\n
+
+'I'm trying to baby, I'm trying to,' is what Ford invariably replied on these occasions.\n\n
+
+Ford Prefect's original name is only pronuncible in an obscure Betelgeusian dialect, now virtually extinct since the Great Collapsing Hrung Disaster. Ford's father was the only man on the entire planet to survive the Great Collapsing Hrung disaster, after which he came to live on Betelgeuse Five where he both fathered and uncled Ford; in memory of his now dead race he christened him in the ancient Praxibetel tongue.\n\n
+
+Because Ford never learned to say his original name, his father eventually died of shame, which is still a terminal disease in some parts of the Galaxy. The other kids at school nicknamed him Ix, which in the language of Betelgeuse Five translates as 'boy who is not able satisfactorily to explain what a Hrung is, nor why it should choose to collapse on Betelgeuse Seven'.\n\n
+
+Zaphod Beeblebrox is his semi-cousin. They share three of the same mothers.\n\n
+
+For further information, please refer to: Characters -> Ford Perfect" android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbars = "vertical"/>
+
+</LinearLayout>
+    </ScrollView>

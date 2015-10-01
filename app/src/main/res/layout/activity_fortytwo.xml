@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="thane.hhgttg.fortytwo">
+
+    <TextView android:text="The Answer to the Great Question Of Life, The Universe, And Everything. The problem is that nobody really knows what the question is.\n\n
+
+The Answer was discovered by the great computer Deep Thought.\n\n
+
+There is a theory that states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexpicable.\n\n
+
+There is another which states that this has already happened."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

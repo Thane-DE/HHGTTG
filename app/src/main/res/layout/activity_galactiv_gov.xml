@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="thane.hhgttg.GalactivGov">
+
+    <TextView android:text="The term Imperial is now an anachronism. The hereditary Emperor is nearly dead and has been for many centuries. In the last moments of his dying coma, he was locked in a stasis field which keeps him in a state of perpetual unchangingness. All his heirs are now long dead, and this means that without any drastic political upheaval, power has simply and effectively moved a rung or two down the ladder, and is now seen to be vested in a body that used to act simply as advisers to the Emperor - an elected government assembly headed by a President elected by that assembly.\n\n
+
+The President in particular is very much a figurehead- his real purpose is not to wield power, but to draw attention away from it." android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

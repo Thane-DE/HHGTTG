@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="thane.hhgttg.Marvin">
+
+    <TextView android:text="Marvin was made by the Sirius Cybernetics Corporation, and is a prototype robot with the new GPP feature.\n\n
+
+He's incredibly smart. Through very odd circumstances involving time-travel, he is thirty-seven times older than the universe itself.\n\n
+
+In all that time, the diodes down his left side, which cause him pain, were never replaced." android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

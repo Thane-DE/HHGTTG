@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="thane.hhgttg.Space">
+
+    <TextView android:text="Space is big. Really big. You just won't believe how vastly hugely mindbogglingly big it is. I mean you may think it's a long way down the road to the chemist, but that's just peanuts to space\n\n
+
+If you hold a lungful of air you can survive in the total vacuum of space for about thirty seconds. However, what with space being the mindboggling size it is, the chances of getting picked up by another ship within those thirty seconds are two to the power of two hundred and seventy-six thousand seven hundred and nine to one against." android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

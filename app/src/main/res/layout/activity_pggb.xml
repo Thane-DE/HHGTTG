@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="vertical" >
+
+    <TextView android:text="A potent drink invented by Zaphod Beeblebrox. The effects have been likened to having your brains smashed out with a slice of lemon wrapped round a large gold brick.\n\n
+
+There are many voluntary organizations which will help to rehabilitate you after you've had one.\n\n
+
+Here are the instructions for mixing a Pan Galactic Gargle Blaster yourself:\n\n
+
+- Take the juice from one bottle of that Ol' Janx Spirit.\n\n
+
+- Pour into it one measure of water from the seas of Santraginus V.\n\n
+
+- Allow three cubes of Arcturan Mega-gin to melt into the mixture (it must be properly iced or the benzine is lost).\n\n
+
+- Allow four litres of Fallian marsh gas to bubble through it, in memory of all those happy Hikers who have died of pleasure in the Marshes of Fallia.\n\n
+
+- Over the back of a silver spoon float a measure of Qualactin Hypermint extract, redolent of all the heady odours of the dark Qualactin Zones, subtle sweet and mystic.\n\n
+
+- Drop in the tooth of an Algolian Suntiger. Watch it dissolve, spreading the fires of the Algolian Suns deep into the heart of the drink.\n\n
+
+- Sprinkle Zamphuor.\n\n
+
+- Add an olive.\n\n
+
+- Drink ... but ... very carefully ..."  android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbars = "vertical"/>
+
+</LinearLayout>
+    </ScrollView>

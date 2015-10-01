@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="thane.hhgttg.VogonCaptian">
+
+    <TextView android:text="Prostetnic Vogon Jeltz is the captain of a Vogon Constructor vessel, which in turn is part of the Vogon Constructor Fleet which destroyed the Earth to make way for the new hyperspace bypass.\n\n
+
+Like all Vogons, he is bad tempered, bureaucratic, officious and callous, and his favourite pastime is shouting at people. Prostetnic Vogon Jeltz also enjoys writing poetry, but this is merely to throw his mean callous heartless exterior into sharp relief.\n\n
+
+Jeltz is responsible for Ford Prefect and Arthur Dent spending 29 seconds asphyxiating in space, after a gut-mangling poetry appreciation, and an interesting conversation with the armpits of an ambitious Vogon guard." android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

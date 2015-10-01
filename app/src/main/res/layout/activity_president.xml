@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="thane.hhgttg.President">
+
+    <TextView android:text="The President is very much a figurehead - he wields no real power whatsoever. He is apparently chosen by the government, but the qualities he is required to display are not those of leadership but those of finely judged outrage. For this reason the President is always a controversial choice, always an infuriating but fascinating character. His job is not to wield power but to draw attention away from it.\n\n
+
+An orange sash is what the President of the Galaxy traditionally wears.\n\n
+
+On those criteria Zaphod Beeblebrox is one of the most successful Presidents the Galaxy has ever had. He spent two of his ten Presidential years in prison for fraud. Very very few people realize that the President and the Government have virtually no power at all, and of these very few people only six know whence ultimate political power is wielded. Most of the others secretly believe that the ultimate decision-making process is handled by a computer. They couldn't be more wrong." android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

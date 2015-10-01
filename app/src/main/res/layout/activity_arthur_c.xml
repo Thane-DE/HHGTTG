@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="vertical" >
+
+    <TextView android:text="Arthur Dent could be described as the main character. While the book is written from the perspective of a neutral observer, the narration still follows Dent except for a few scenes in between which focus on Zaphod and the Heart of Gold instead. Arthur starts out as a totally innocent and oblivious character on earth who gets rescued from the imminent destruction of Earth by his old friend Ford Perfect. His characteristics and body features are rather unremarkable, tall, brown-haired and in his thirties. The book describes him being “never quite at ease with himself” and always looking worried, but other than apparently being a bit introverted, he is a pretty normal guy. Of course, this all changes as soon as he witnesses Earths destruction – initially being shocked he starts panicking right after and only calms down later on when he almost suffocates in outer space. From then on, his old characteristics start to return – always a bit uneasy, but rather curious.\n\n
+He has been a friend of Ford Perfect for about five years, treating him as a somewhat eccentric, yet harmless fellow. Naturally, when Ford tells him that Earth is about to be destroyed he initially does not believe him. Over the course of the book his trust into Ford increases, mostly because Ford is the only person that Dent still knows after Earths destruction. He is initially suspicious towards Zaphod, but they become acquainted later on. He also knew Tricia back on Earth – they met each other at a party that Zaphod also attended.
+" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    </ScrollView>

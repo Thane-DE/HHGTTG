@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="thane.hhgttg.Cyber">
+
+    <TextView android:text="The marketing division of the Sirius Cybernetics Corporation can be defined as 'a bunch of mindless jerks who'll be the first against the wall when the revolution comes,' with a footnote to the effect that the editors would welcome applications from anyone interested in taking over the post of robotics correspondent.\n\n
+
+Curiously enough, an edition of the Encyclopedia Galactica that had the good fortune to fall through a time warp from a thousand years in the future defined the marketing division of the Sirius Cybernetics Corporation as 'a bunch of mindless jerks who were the first against the wall when the revolution came.'\n\n
+
+The motto of the Sirius Cybernetics Corporation is 'Share and Enjoy.'" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

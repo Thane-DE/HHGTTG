@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="thane.hhgttg.Vogons">
+
+    <TextView android:text="Though not actually evil, the Vogons are throughly vile. Officious, bad-tempered, callous, rude, unpleasant.\n\n
+
+They wouldn't even lift a finger to save their own grandmothers from the Ravenous Bugblatter Beast of Traal without orders signed in triplicate, sent in, sent back, queried, lost, found, subjected to public inquiry, lost again, and finally buried in soft peat for three months and recycled as firelighters.\n\n
+
+Vogons have dark green rubbery skin, waterproof enough to survive indefinitely at sea depths of down to a thousand feet with no ill effects. They have highly domed noses high above small piggy foreheads.\n\n
+
+They write some of the worst poetry in the known universe." android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

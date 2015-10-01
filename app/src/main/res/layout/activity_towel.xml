@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="vertical" >
+
+    <TextView android:text="Just about the most massively useful thing any interstellar Hitchhiker can carry. For one thing it has great practical value - you can wrap it around you for warmth on the cold moons of Jaglan Beta, sunbathe on it on the marble beaches of Santraginus Five, huddle beneath it for protection from the Arcturan Megagnats as you sleep beneath the stars of Kakrafoon, use it to sail a miniraft down the slpow heavy river Moth, wet it for use in hand to hand combat, wrap it round your head to avoid the gaze of the Ravenous Bugblatter Beast of Traal, and even dry yourself off with it if it still seems clean enough.\n\n
+
+More importantly, a towel has immense psychological value. For some reason, if a strag (strag: non-hitch hiker) discovers that a hitch hiker has his towel with him, he will automatically assume that he is also in possession of a toothbrush, face flannel, soap, tin of biscuits, flask, compass, map, ball of string, gnat spray, wet weather gear, space suit etc., etc. Furthermore, the strag will then happily lend the hitch hiker any of these or a dozen other items that the hitch hiker might accidentally have 'lost. What the strag will think is that any man who can hitch the length and breadth of the galaxy, rough it, slum it, struggle against terrible odds, win through, and still knows where his towel is is clearly a man to be reckoned with.\n\n
+
+Hence a phrase which has passed into hitch hiking slang, as in 'Hey, you sass that hoopy Ford Prefect? There's a frood who really knows where his towel is.' (Sass: know, be aware of, meet, have sex with; hoopy: really together guy; frood: really amazingly together guy.)"  android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbars = "vertical" />
+
+</LinearLayout>
+    </ScrollView>

@@ -1,9 +1,11 @@
 package thane.hhgttg;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class CharIndex extends AppCompatActivity {
 
@@ -27,11 +29,21 @@ public class CharIndex extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
         return super.onOptionsItemSelected(item);
+    }
+
+    public void arthurc (View view){
+        Intent arthurcI = new Intent(this, ArthurC.class);
+        startActivity(arthurcI);
+    }
+
+    public void fordc (View view){
+        Intent fordcI = new Intent(this, Fordc.class);
+        startActivity(fordcI);
+    }
+
+    public void zaphodc (View view){
+        Intent zaphodc = new Intent(this, ZaphodC.class);
+        startActivity(zaphodc);
     }
 }

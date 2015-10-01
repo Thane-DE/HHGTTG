@@ -1,8 +1,57 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="thane.hhgttg.Time">
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none" >
 
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="vertical" >
+
+    <TextView android:text="Arthur:\n
+@localgov This is an outrage! You can't tear my house down without telling me first. Also, I don't think the docs that I found in that basement are valid.\n\n
+
+Local Government:\n
+@Arthur Why not? The plans were on display forever and you never said anything! Completely #yourownfault\n\n
+
+Ford:\n
+@Arthur @localgov Hey Arthur, let me handle this. I need to talk to you right now anyways. You trust me, right?\n\n
+
+Arthur:\n
+@Ford Oh, I'd trust you till the end of the world. Go ahead\n\n
+
+Ford:\n
+@Arthur Well, that's only 12 minutes away anyways. Now eat these...\n\n
+
+Ford:\n
+Captured in a Vogon spacecraft together with @Arthur right after witnessing the destruction of a planet. This job at #HHGTTG sure is exiting\n\n
+
+Ford:\n
+Freaking Vogon poetry - even worse than I imagined it to be...\n\n
+
+Arthur:\n
+@Ford SRSLY? MY HOME PLANET JUST BLEW UP AND YOU COMPLAN ABOUT THAT FRICKIN POETRY???\n\n
+
+Ford:\n
+@Arthur Eh, we're about to suffocate in space, so why bother. T minus 30 secs...\n\n
+
+Tricia:\n
+@Arthur @Ford Not today. Odds for survival are at #two hundred and seventy-six thousand seven hundred and nine against one\n\n
+
+Zaphod:\n
+And we did it! Welcome on board @Ford - and you too @Aartur\n\n
+
+Arthur\n
+@Zaphod Fair enough I guess... Name is @Arthur by the way"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    </ScrollView>

@@ -18,7 +18,7 @@
         </activity>
         <activity
             android:name=".Manual"
-            android:label="@string/title_activity_manual"
+            android:label="Manual"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -26,7 +26,7 @@
         </activity>
         <activity
             android:name=".Index"
-            android:label="@string/title_activity_index"
+            android:label="Index"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -34,7 +34,7 @@
         </activity>
         <activity
             android:name=".CharIndex"
-            android:label="@string/title_activity_char_index"
+            android:label="Character Index"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -42,18 +42,257 @@
         </activity>
         <activity
             android:name=".Time"
-            android:label="@string/title_activity_time"
-            >
+            android:label="Timeline" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="thane.hhgttg.MainActivity" />
         </activity>
         <activity
             android:name=".Eval"
-            android:label="@string/title_activity_eval" >
+            android:label="Personal Evaluation" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="thane.hhgttg.MainActivity" />
+        </activity>
+        <activity
+            android:name=".fortytwo"
+            android:label="Forty-Ttwo"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Alcohol"
+            android:label="@string/title_activity_alcohol"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".BabelFish"
+            android:label="Babel Fish"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Zaphod"
+            android:label="Zaphod Beeblebrox"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Bypasses"
+            android:label="@string/title_activity_bypasses"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".CarelessTalk"
+            android:label="Careless Talk"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Damogran"
+            android:label="@string/title_activity_damogran"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".DeepThought"
+            android:label="Deep Thought"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Arthur"
+            android:label="Arthur Philip Dent"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Earth"
+            android:label="@string/title_activity_earth"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".ElectronicThumb"
+            android:label="@string/title_activity_electronic_thumb"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".HeartofGold"
+            android:label="@string/title_activity_heartof_gold"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".GalactivGov"
+            android:label="@string/title_activity_galactiv_gov"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".IID"
+            android:label="@string/title_activity_iid"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".VogonCaptian"
+            android:label="@string/title_activity_vogon_captian"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Magrathea"
+            android:label="@string/title_activity_magrathea"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Marvin"
+            android:label="@string/title_activity_marvin"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Tricia"
+            android:label="@string/title_activity_tricia"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".PGGB"
+            android:label="@string/title_activity_pggb"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Poetry"
+            android:label="@string/title_activity_poetry"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Ford"
+            android:label="@string/title_activity_ford"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".President"
+            android:label="@string/title_activity_president"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Cyber"
+            android:label="@string/title_activity_cyber"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Slartibartfast"
+            android:label="@string/title_activity_slartibartfast"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Space"
+            android:label="@string/title_activity_space"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Towel"
+            android:label="@string/title_activity_towel"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".Vogons"
+            android:label="@string/title_activity_vogons"
+            android:parentActivityName=".Index" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.Index" />
+        </activity>
+        <activity
+            android:name=".ArthurC"
+            android:label="Arthur Philip Dent"
+            android:parentActivityName=".CharIndex" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.CharIndex" />
+        </activity>
+        <activity
+            android:name=".Fordc"
+            android:label="@string/title_activity_fordc"
+            android:parentActivityName=".CharIndex" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.CharIndex" />
+        </activity>
+        <activity
+            android:name=".ZaphodC"
+            android:label="@string/title_activity_zaphod_c"
+            android:parentActivityName=".CharIndex" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thane.hhgttg.CharIndex" />
         </activity>
     </application>
 

@@ -1,0 +1,11 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="thane.hhgttg.Fordc">
+
+    <TextView android:text="Ford Perfect is one of the two links between Dent and Zaphod + the Universe, the other being Tricia McMillan. He is rather calm most of the time, thinking in a very rational way and trying to make the most logical choices in any given situation. He has known Dent for about five years – and for some reason decides to rescue him from the destruction of earth. He also is Zaphods semi cousin and they grew up together. Naturally, when they meet again after over 15 years, they are both glad and get along well for the rest of the journey. He does not seem to be in any noteable relationship with Tricia." android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

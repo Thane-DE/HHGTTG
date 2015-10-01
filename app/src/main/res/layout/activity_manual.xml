@@ -12,18 +12,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="This is the user manual for the Hitchhikers Guide to the Galaxy ”INSERT-FACHBEGRIFF HERE” . This manual will hopefully answer any questions you might have. You may always access this manual by pressing the menu button on the top-right corner or by selecting “manual” in the main menu\n\nGENERAL CONTROLS:\n\n
+        android:text="This is the user manual for the Hitchhikers Guide to the Galaxy. This manual will hopefully answer any questions you might have. You may always access this manual by selecting “manual” in the main menu\n\nGENERAL CONTROLS:\n\n
 
-- Use the touchscreen to navigate through the app.\n
-- Swipe from the left edge towards the middle to open the navigation menu\n
-- Pressing either the arrow button at the top left corner or either of the edge hardware buttons will take you back to the previous page\n\n
+- Use the touchscreen to navigate through the app.\n\n
+- Pressing either the arrow button at the top left corner or the bottom right hardware button will take you back to the previous page\n\n
 
-NAVIGATION MENU ENTRIES:\n\n
+MENU ENTRIES:\n\n
 
-- Index: The index entry can be used to view all available HHGTTG database entries. A list with all database files will pop up once you press the index entry in the navigation menu\n
-- Characters: This entry will give you detailed entries on all relevant characters within the bookv\n
-- Diary: SPECIAL EDITION CONTENT – The diary entries of “NAME EINFÜGEN”, integrated into the HHGTTG App!\n
-- Help: This entry will take you to this manual page"
+- Dictionary: The dictionary contains useful entries on all relevant topics within the universe - towels, bypasses, the answer to life, the universe and everything and many more\n\n
+- Characters: This entry will give you detailed entries on the three most relevant book characters\n\n
+- Timeline: See for yourself! An alternate view on the first few chapters\n\n
+
+Note: Huge thanks to http://www.hhgproject.org/ Most dictionary entries were provided by them"
+
         android:id="@+id/textView7"
         android:layout_marginTop="0dp"
         android:scrollbars = "vertical"

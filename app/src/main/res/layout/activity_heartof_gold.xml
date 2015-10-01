@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="thane.hhgttg.HeartofGold">
+
+    <TextView android:text="A brand new state of the art spaceship, stolen at its unveiling on the planet Damogran by Galactic President Zaphod Beeblebrox. The Heart Of Gold is equipped with the new Infinite Improbability Drive. The core of this drive is made of solid gold, thus the name.\n\n
+
+The Heart Of Gold is one hundred and fifty metres long, shaped like a sleek running shoe, and perfectly white." android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

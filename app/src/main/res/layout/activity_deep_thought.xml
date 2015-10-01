@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="vertical" >
+
+    <TextView android:text="Quite simply, the second greatest computer ever created.\n\n
+
+Activated by programmers Lunkwill and Fook, Deep Thought's purpose was to produce an answer. No ordinary answer, mind you, but the most important answer ever... the answer to Life, the Universe, and Everything.\n\n
+
+The philosophers Majikthise and Vroomfrondel attempted to intervene in the calculations at this point, but Deep Thought's circuits were committed to finding this answer, which took seven and a half million years to complete.\n\n
+
+In time, Deep Thought imparted the answer to descendants of the original programmers, Loonquawl and Phouchg. The answer, of course, was 42. Baffled by this outcome, the programmers were informed that the question was too vague and that not even Deep Thought could extrapolate it. Deep Thought would, however, design the computer that could, and that computer was so vast that organic life became part of it's matrix. The new supercomputer was known as the planet Earth.\n\n
+
+Sadly, though, the planet-computer was demolished by the Vogons a mere five minutes before it's calculations were complete. The mice were utterly perturbed, but that's another story for another entry."  android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbars = "vertical"/>
+
+</LinearLayout>
+    </ScrollView>
